@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@cher1shrxd/webview-stack-kit": "1.0.0",
+    "@cher1shrxd/webview-stack-kit": "1.0.1",
     "tailwindcss": "^4.1.18",
     "@tailwindcss/postcss": "^4.1.18",
     "next": "16.1.1",

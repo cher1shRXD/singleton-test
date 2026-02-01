@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@cher1shrxd/webview-stack-kit':
-        specifier: 1.0.0
-        version: 1.0.0(nanoid@3.3.11)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        specifier: 1.0.1
+        version: 1.0.1(nanoid@3.3.11)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@tailwindcss/postcss':
         specifier: ^4.1.18
         version: 4.1.18
@@ -119,8 +119,8 @@ packages:
     resolution: {integrity: sha512-0ZrskXVEHSWIqZM/sQZ4EV3jZJXRkio/WCxaqKZP1g//CEWEPSfeZFcms4XeKBCHU0ZKnIkdJeU/kF+eRp5lBg==}
     engines: {node: '>=6.9.0'}
 
-  '@cher1shrxd/webview-stack-kit@1.0.0':
-    resolution: {integrity: sha512-9D5AMYZOVLyafsdwewiDEmOcl772wTn891sNSluPDX7JRqRAUxNqG9GrD8RI5BjMyL1Ms2BkkU1/yEqdV/tw4w==}
+  '@cher1shrxd/webview-stack-kit@1.0.1':
+    resolution: {integrity: sha512-zTKRE16UdCdqGtB8k3JdJemlXKMBkSp1mqxFOscQlMRhSUxH1vojSPFrj1hdLRv73SNFzuwZrbLghaKONlpAyA==}
     peerDependencies:
       nanoid: '>=3'
       react: '>=19'
@@ -2018,7 +2018,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@cher1shrxd/webview-stack-kit@1.0.0(nanoid@3.3.11)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+  '@cher1shrxd/webview-stack-kit@1.0.1(nanoid@3.3.11)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
     dependencies:
       nanoid: 3.3.11
       react: 19.2.3
