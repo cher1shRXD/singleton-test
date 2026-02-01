@@ -6,7 +6,7 @@ const Profile = ({ userId }: { userId: number }) => {
   const stack = useStack();
 
   return (
-    <Stack className="min-h-screen flex items-center justify-center bg-linear-to-tr from-pink-400 via-purple-400 to-blue-400">
+    <Stack className="min-h-screen flex items-center justify-center bg-linear-to-tr from-pink-400 via-purple-400 to-blue-400 px-4">
       <div className="bg-white/90 backdrop-blur-lg shadow-xl rounded-2xl p-8 max-w-sm w-full flex flex-col items-center">
         <div className="w-24 h-24 rounded-full bg-linear-to-br from-blue-400 via-purple-400 to-pink-400 flex items-center justify-center mb-4 shadow-lg">
           <span className="text-4xl">🧑‍💻</span>

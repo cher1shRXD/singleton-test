@@ -7,7 +7,7 @@ const Hi = () => {
   const stack = useStack();
 
   return (
-    <Stack className="min-h-screen flex items-center justify-center bg-linear-to-br from-blue-500 via-purple-500 to-pink-500">
+    <Stack className="min-h-screen flex items-center justify-center bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 px-4">
       <div className="bg-white/80 backdrop-blur-md shadow-2xl rounded-3xl p-10 max-w-md w-full flex flex-col items-center">
         <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 mb-4 animate-fade-in">
           Welcome! 👋
