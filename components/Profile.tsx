@@ -1,8 +1,9 @@
 "use client";
 
 import { Stack, useStack } from "@cher1shrxd/webview-stack-kit";
+import Camera from "./Camera";
 
-const Profile = ({ userId }: { userId: number }) => {
+const Profile = () => {
   const stack = useStack();
 
   return (
@@ -17,9 +18,16 @@ const Profile = ({ userId }: { userId: number }) => {
           <br />
           Here you can manage your information and settings.
         </p>
-        <button className="px-5 py-2 rounded-full bg-linear-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:scale-105 transition-transform duration-200">
-          Edit Profile
-        </button>
+        <div className="flex gap-3 w-full">
+          <button className="flex-1 px-5 py-2 rounded-full bg-linear-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-md hover:scale-105 transition-transform duration-200">
+            Edit Profile
+          </button>
+          <button 
+            onClick={() => stack.push(Camera, {})}
+            className="flex-1 px-5 py-2 rounded-full bg-linear-to-r from-indigo-500 to-purple-500 text-white font-semibold shadow-md hover:scale-105 transition-transform duration-200">
+            📷 Camera
+          </button>
+        </div>
       </div>
     </Stack>
   );
